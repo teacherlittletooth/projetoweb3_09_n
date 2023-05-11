@@ -24,5 +24,8 @@
                             : "visitante" %>
             <button onclick="window.location.href='session/logout.jsp'">Logout</button>
         </p>
+        <hr>
+        <button onclick="window.location.href='cadastro.jsp'">CADASTRAR</button>
+        <button onclick="window.location.href='lista.jsp'">LISTAR</button>
     </body>
 </html>
