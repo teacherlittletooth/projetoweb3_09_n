@@ -110,4 +110,14 @@ public class ArtistaDAO {
         prep.close();
     }
     
+    
+    public void deleteArtista(int id) throws SQLException {
+        String query = "DELETE FROM artistas "
+                + "WHERE cod_artista = " + id;
+        
+        PreparedStatement prep = conn.prepareStatement(query);
+        prep.execute();
+        prep.close();
+    }
+    
 }//Fim da classe
